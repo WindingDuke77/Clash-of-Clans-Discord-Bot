@@ -395,7 +395,7 @@ function spells(interation, spell, json, embed) {
   });
 }
 
-function heros(interation, hero) {
+function heros(interation, hero, json, embed) {
   hero = capitalize(hero);
 
   let heroObj = json.heroes.find((obj) => obj.name == hero);

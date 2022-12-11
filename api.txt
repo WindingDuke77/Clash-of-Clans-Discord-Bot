@@ -1,9 +1,0 @@
-https://api.clashofclans.com/v1/clans/{clanID}/currentwar/leaguegroup.  -- get active war league members  -- desplay current member in war
-
-
-// https://api.clashofclans.com/v1/clanwarleagues/wars/{clanID} -- get active war
-
-https://api.clashofclans.com/v1/clans -- clan search
-
-#2QGLCQGCC -- clan tag
-#8QYR2PVV -- player tag

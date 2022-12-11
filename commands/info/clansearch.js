@@ -1,5 +1,4 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const ms = require("ms");
 const fetch = require("node-fetch");
 const Discord = require("discord.js");
 
