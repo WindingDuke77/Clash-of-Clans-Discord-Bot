@@ -2,10 +2,11 @@
 
 ## Basic Info
 
-This bot allows you get info about any Clan or Player in Clash of Clans `<br />`
-[Invite the Bot](https://ptb.discord.com/api/oauth2/authorize?client_id=1049461494242353172&permissions=51200&scope=applications.commands%20bot) `<br />`
-![image](https://top.gg/api/widget/1024776622143975434.svg)
-
+This bot allows you get info about any Clan or Player in Clash of Clans <br />
+[Invite the Bot](https://ptb.discord.com/api/oauth2/authorize?client_id=1049461494242353172&permissions=51200&scope=applications.commands%20bot) <br />
+<a href="https://top.gg/bot/1049461494242353172">
+  <img src="https://top.gg/api/widget/1049461494242353172.svg">
+</a>
 ### Commands
 
 - /clan 		 - Allows you to get data about a Clan
