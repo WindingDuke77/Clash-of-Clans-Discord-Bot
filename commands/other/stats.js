@@ -11,9 +11,8 @@ module.exports = {
   async execute(interation, Discord, client) {
     const Template = new Discord.MessageEmbed()
       .setColor(Math.floor(Math.random() * 16777215).toString(16))
-      .setFooter({ text: `Powered by RhymeBrain.com` })
       .setTimestamp()
-      .setTitle("📚 Rhyme Bot Stats 📚")
+      .setTitle("Clash of Clans Stats")
       .setDescription("Here some of our Stats")
       .addFields(
         {
