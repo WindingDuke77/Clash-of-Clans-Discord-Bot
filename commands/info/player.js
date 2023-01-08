@@ -275,13 +275,6 @@ function info(interation, json, embed) {
       value: `Level ${json.builderHallLevel}`,
       inline: true,
     },
-    {
-      name: "Clan",
-      value: `${json.clan.name} - ${json.clan.tag}`,
-      inline: true,
-    },
-
-    { name: "Current League", value: `${json.league.name}`, inline: true },
     { name: "Trophies", value: `${json.trophies}`, inline: true },
     {
       name: "Versus Trophies",
@@ -306,6 +299,21 @@ function info(interation, json, embed) {
       inline: true,
     }
   );
+
+  if (json.clan) {
+    embed.addFields({
+      name: "Clan",
+      value: `${json.clan.name} - ${json.clan.tag}`,
+      inline: true,
+    });
+  }
+  if (json.league) {
+    embed.addFields({
+      name: "Current League",
+      value: `${json.league.name}`,
+      inline: true,
+    });
+  }
   interation.reply({ embeds: [embed] });
 }
 
